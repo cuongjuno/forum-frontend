@@ -1,0 +1,57 @@
+.login{
+  border: 0;
+  height: 100%;
+  margin: 0;
+  display: flex!important;
+  padding: 120px 0;
+  position: relative;
+  min-height: 100vh;
+  align-items: center;
+  background-size: cover;
+  background-position: center top;
+  .content {
+    border: 0;
+    display: flex;
+    position: relative;
+    word-wrap: break-word;
+    background: #FFF;
+    box-shadow: 0 2px 2px 0 RGB(0 0 0 / 14%), 0 3px 1px -2px RGB(0 0 0 / 20%), 0 1px 5px 0 RGB(0 0 0 / 12%);
+    margin-top: 30px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    .header {
+      width: auto;
+      text-align: center;
+      background: #1BC5BD;
+      box-shadow: 0 12px 20px -10px RGB(156 39 176 / 28%), 0 4px 20px 0px RGB(0 0 0 / 12%), 0 7px 8px -5px RGB(156 39 176 / 20%);
+      padding: 20px 0;
+      margin-top: -40px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 15px;
+      border-radius: 3px;
+      border: 0;
+      height: 144px;
+      .ant-typography{
+        color: #FFF;
+      }
+    }
+    .form{
+      margin-top: 30px;
+      padding: 0 30px;
+    }
+  }
+}
+.login::before{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+}
+.login::before{
+  background: rgba(0, 0, 0, 0.5);
+}
